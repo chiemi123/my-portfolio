@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="天気予報アプリ CHIEMI ENDO ポートフォリオ"
+    />
+    <meta property="og:url" content="URLが入る" />
+    <meta
+      property="og:description"
+      content="CHIEMI ENDOのポートフォリオサイト - 天気予報アプリの紹介ページ"
+    />
+    <meta property="og:image" content="img/ogp.png" />
+    <meta
+      name="description"
+      content="CHIEMI ENDOによる天気予報アプリ開発事例の詳細ページ"
+    />
+    <title>天気予報アプリ | CHIEMI ENDO ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="canonical" href="URLが入る" />
+    <!-- favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- SwiperのJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href=".">CHIEMI ENDO</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href=".#works">WORKS</a></li>
+              <li class="gnav-item"><a href="./#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="./#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">天気予報アプリ</h2>
+            <div class="article-body">
+              <!-- Swiper -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- ホーム画面 -->
+                  <div class="swiper-slide">
+                    <img
+                      src="img/weather-app/weather-home.png"
+                      alt="検索ホーム画面"
+                    />
+                  </div>
+
+                  <!-- 履歴表示 -->
+                  <div class="swiper-slide">
+                    <img
+                      src="img/weather-app/weather-search-history.png"
+                      alt="検索履歴表示画面"
+                    />
+                  </div>
+
+                  <!-- 詳細画面 -->
+                  <div class="swiper-slide">
+                    <img
+                      src="img/weather-app/weather-detail.png"
+                      alt="天気詳細画面"
+                    />
+                  </div>
+                </div>
+
+                <!-- 矢印 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- ページネーション -->
+                <div class="swiper-pagination"></div>
+              </div>
+              <p>
+                現在地や任意の都市名を入力して天気情報を取得・表示する天気予報アプリを制作しました。API連携を通して、リアルタイムの天気情報を取得できる構成にしています。
+              </p>
+
+              <h3>URL</h3>
+              <p>非公開（個人開発のためローカル環境で実行）</p>
+
+              <h3>使用技術</h3>
+              <p>React / Next.js / TypeScript / Tailwind CSS / Weather API</p>
+
+              <h3>担当工程</h3>
+              <p>設計、コーディング、API連携、スタイリング</p>
+
+              <h3>目的・特徴</h3>
+              <p>
+                ReactやNext.jsのフレームワークを活用し、非同期通信・API連携・ルーティングなどのモダンなフロントエンド技術の理解を深めることを目的に制作しました。TypeScriptによる型安全な実装や、Tailwind
+                CSSを用いた効率的なUI構築にも取り組んでいます。
+              </p>
+
+              <h3>工夫した点</h3>
+              <p>
+                初心者でも使いやすいUIを目指し、気温・湿度・天気アイコンを視覚的に整理。エラー時にはアラート表示でユーザーにフィードバックを返す設計にしています。
+              </p>
+            </div>
+            <div class="home-link">
+              <a href="./#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">expand_less</span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy; CHIEMI ENDO</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        spaceBetween: 5,
+        slidesPerView: 1,
+      });
+    </script>
+  </body>
+</html>

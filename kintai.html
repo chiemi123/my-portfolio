@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="勤怠管理システム | CHIEMI ENDO ポートフォリオ"
+    />
+    <meta property="og:url" content="URLが入る" />
+    <meta
+      property="og:description"
+      content="CHIEMI ENDOのポートフォリオサイト - 勤怠管理システムの紹介ページ"
+    />
+    <meta property="og:image" content="img/ogp.png" />
+    <meta
+      name="description"
+      content="CHIEMI ENDOによる勤怠管理システム開発事例の詳細ページ"
+    />
+    <title>勤怠管理システム | CHIEMI ENDO ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="canonical" href="URLが入る" />
+    <!-- favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- SwiperのJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href=".">CHIEMI ENDO</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href=".#works">WORKS</a></li>
+              <li class="gnav-item"><a href="./#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="./#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">勤怠管理システム</h2>
+            <div class="article-body">
+              <!-- Swiper -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/kintai/kintai-login.png" alt="ログイン画面" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/kintai/kintai-index.png" alt="打刻画面" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="img/kintai/kintai-user-show.png"
+                      alt="勤怠表画面"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="img/kintai/kintai-user-index.png"
+                      alt="ユーザー一覧画面"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="img/kintai/kintai-attendance.png"
+                      alt="日付別一覧画面"
+                    />
+                  </div>
+                </div>
+
+                <!-- ナビゲーションボタン -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- ページネーション -->
+                <div class="swiper-pagination"></div>
+              </div>
+              <p>
+                出退勤の打刻・管理、従業員ごとの出勤履歴確認機能を備えた社内向け勤怠管理システムを個人開発しました。
+              </p>
+              <h3>URL</h3>
+              <p>非公開（個人開発のためローカル環境で実行）</p>
+
+              <h3>担当工程</h3>
+              <p>要件整理、DB設計、CRUD機能実装、管理画面の開発</p>
+
+              <h3>サイトの目的</h3>
+              <p>
+                中小企業向けに、誰でも使いやすいシンプルな勤怠管理ツールを提供
+              </p>
+
+              <h3>工夫した点</h3>
+              <p>
+                シンプルで直感的に使えるUI設計に加え、打刻ミス防止のアラート機能を実装しました。従業員の操作ミスを減らし、管理者の負担軽減を目指しています。
+              </p>
+
+              <h3>UI・デザイン</h3>
+              <p>
+                よくあるログイン画面や業務システムのUIを参考にしながら、シンプルで操作しやすい独自デザインを設計しました。ユーザーが迷わず操作できるように、画面遷移や入力導線にも配慮しています。
+              </p>
+            </div>
+            <div class="home-link">
+              <a href="./#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">expand_less</span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy; CHIEMI ENDO</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        spaceBetween: 5,
+        slidesPerView: 1,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="飲食店予約サービス CHIEMI ENDO ポートフォリオ"
+    />
+    <meta property="og:url" content="URLが入る" />
+    <meta
+      property="og:description"
+      content="CHIEMI ENDOのポートフォリオサイト - 飲食店予約サービスの紹介ページ"
+    />
+    <meta property="og:image" content="img/ogp.png" />
+    <meta
+      name="description"
+      content="CHIEMI ENDOによる飲食店予約サービス開発事例の詳細ページ"
+    />
+    <title>飲食店予約サービス | CHIEMI ENDO ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="canonical" href="URLが入る" />
+    <!-- favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- SwiperのJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href=".">CHIEMI ENDO</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href=".#works">WORKS</a></li>
+              <li class="gnav-item"><a href="./#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="./#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">飲食店予約サービス</h2>
+            <div class="article-body">
+              <!-- Swiper -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="img/rese-reservation/user-login.png"
+                      alt="ログイン画面"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="img/rese-reservation/shops-index.png"
+                      alt="店舗一覧画面"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="img/rese-reservation/shops-detail.png"
+                      alt="店舗詳細画面"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="img/rese-reservation/shops-reservation.png"
+                      alt="予約入力画面"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="img/rese-reservation/mypage.png"
+                      alt="マイページ"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="img/rese-reservation/owner-dashboard.png"
+                      alt="店舗オーナー管理画面"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="img/rese-reservation/admin-dashboard.png"
+                      alt="管理者ダッシュボード"
+                    />
+                  </div>
+                </div>
+
+                <!-- ナビゲーション -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- ページネーション -->
+                <div class="swiper-pagination"></div>
+              </div>
+              <p>
+                飲食店の検索・予約、管理者による予約状況の確認などの機能を備えた予約サービスを個人開発しました。
+              </p>
+
+              <h3>URL</h3>
+              <p>非公開（個人開発のためローカル環境で実行）</p>
+
+              <h3>担当工程</h3>
+              <p>フルスタック開発、デプロイ（AWS EC2）</p>
+
+              <h3>サイトの目的</h3>
+              <p>
+                中小規模の飲食店向けに、簡易で導入しやすい予約管理機能を提供
+              </p>
+
+              <h3>認証・権限設計</h3>
+              <p>
+                ユーザー・店舗オーナー・管理者の3ロールを実装。
+                ログイン後の遷移先や利用可能機能をロール別に制御しています。
+                オーナーは店舗情報の登録・編集が可能。
+                管理者は店舗代表者アカウントの作成・管理を行える設計にしています。
+              </p>
+
+              <h3>工夫した点</h3>
+              <p>
+                モバイルユーザー向けにレスポンシブ対応を強化し、ユーザーが直感的に予約できるUI設計を心がけました。管理者側では予約一覧が日付ごとに把握しやすいように画面を工夫しています。
+              </p>
+
+              <h3>UI・デザイン</h3>
+              <p>
+                飲食店の雰囲気に馴染むよう、暖色系をベースにした配色と、柔らかいフォントを使用。予約フォームや確認画面では、迷わず進めるステップ形式の導線を意識しました。
+              </p>
+            </div>
+            <div class="home-link">
+              <a href="./#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">expand_less</span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy; CHIEMI ENDO</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        spaceBetween: 5,
+        slidesPerView: 1,
+      });
+    </script>
+  </body>
+</html>
