@@ -414,12 +414,27 @@ img {
 .footer {
   padding: 30px;
   background-color: #333;
+  text-align: center;
+  color: #aaa;
 }
 
 .copyright {
   font-size: 10px;
-  text-align: center;
-  color: #797979;
+}
+
+.credit {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.credit a {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+.credit a:hover {
+  color: #fff;
 }
 
 /* ==========================
